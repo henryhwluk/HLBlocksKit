@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version               = '2.2.6'
   s.license               = 'MIT'
   s.summary               = 'The Objective-C block utilities you always wish you had for own use without webview.'
-  s.homepage              = 'https://zwaldowski.github.io/BlocksKit'
+  s.homepage              = 'https://github.com/henvyluk/HLBlocksKit'
   s.author                = { 'henvy' => 'henvyluk@gmail.com',
                               'henvy luk'  => 'henvyluk@gmail.com' }
   s.source                = { :git => 'https://github.com/henvyluk/HLBlocksKit.git', :tag => "v#{s.version}" }
