@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'HLBlocksKit'
-  s.version               = '2.2.6'
+  s.version               = '2.2.7'
   s.license               = 'MIT'
   s.summary               = 'The Objective-C block utilities you always wish you had for own use without webview.'
   s.homepage              = 'https://github.com/henvyluk/HLBlocksKit'
