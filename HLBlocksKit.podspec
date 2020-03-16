@@ -1,23 +1,23 @@
 Pod::Spec.new do |s|
-  s.name                  = 'BlocksKit'
-  s.version               = '2.2.6'
+  s.name                  = 'HLBlocksKit'
+  s.version               = '2.2.7'
   s.license               = 'MIT'
-  s.summary               = 'The Objective-C block utilities you always wish you had.'
-  s.homepage              = 'https://zwaldowski.github.io/BlocksKit'
-  s.author                = { 'Zachary Waldowski' => 'zach@waldowski.me',
-                              'Alexsander Akers'  => 'a2@pnd.mn' }
-  s.source                = { :git => 'https://github.com/zwaldowski/BlocksKit.git', :tag => "v#{s.version}" }
+  s.summary               = 'The Objective-C block utilities you always wish you had for own use without webview.'
+  s.homepage              = 'https://github.com/henvyluk/HLBlocksKit'
+  s.author                = { 'henvy' => 'henvyluk@gmail.com',
+                              'henvy luk'  => 'henvyluk@gmail.com' }
+  s.source                = { :git => 'https://github.com/henvyluk/HLBlocksKit.git', :tag => "v#{s.version}" }
   s.requires_arc          = true
   s.osx.deployment_target = '10.8'
   s.ios.deployment_target = '6.0'
-  s.watchos.deployment_target = '2.0'
+  #s.watchos.deployment_target = '2.0'
 
   s.default_subspec = 'All'
   s.subspec 'All' do |ss|
     ss.dependency 'BlocksKit/Core'
     ss.dependency 'BlocksKit/DynamicDelegate'
     ss.ios.dependency 'BlocksKit/MessageUI'
-    ss.ios.dependency 'BlocksKit/QuickLook'
+    #ss.ios.dependency 'BlocksKit/QuickLook'
     ss.ios.dependency 'BlocksKit/UIKit'
   end
 
